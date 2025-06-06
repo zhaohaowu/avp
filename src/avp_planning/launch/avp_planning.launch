@@ -1,0 +1,6 @@
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find avp_planning)/rviz/avp_planning.rviz" />
+    <node name="avp_planning" pkg="avp_planning" type="avp_planning" output="screen"/>
+    <node name="ipm" pkg="ipm" type="ipm"/>
+    <node name="avp_localization" pkg="avp_localization" type="avp_localization"/>
+</launch>

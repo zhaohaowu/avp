@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="ipm" name="ipm" type="ipm" output="screen">
+    </node>
+
+    <!-- <node pkg="rviz" name="rviz" type="rviz" args="-d $(find ipm)/rviz/ipm.rviz">
+    </node> -->
+</launch>

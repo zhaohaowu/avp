@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="ekf_demo" name="ekf_demo" type="ekf_demo" output="screen">
+    </node>
+    <node pkg="rviz" name="rviz" type="rviz" args="-d $(find ekf_demo)/rviz/ekf_demo.rviz">
+    </node>
+</launch>

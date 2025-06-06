@@ -1,5 +1,5 @@
 <launch>
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find avp_mapping)/rviz/avp_mapping.rviz" />
-    <node name="avp_mapping" pkg="avp_mapping" type="avp_mapping_node" output="screen"/>
+    <node name="avp_mapping" pkg="avp_mapping" type="avp_mapping" output="screen"/>
     <node name="ipm" pkg="ipm" type="ipm"/>
 </launch>

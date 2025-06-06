@@ -31,7 +31,7 @@ roslaunch avp_mapping avp_mapping.launch
 roslaunch avp_localization avp_localization.launch
 
 # 5. 基于语义地图和定位信息规划（bfs、a*和混合a*）和控制（pid、stanly、纯跟踪和lqr）
-roslaunch avp_localization avp_localization.launch
+roslaunch avp_planning avp_planning.launch
 
 # 播放数据集
 rosbag play 2025-04-15-15-23-25.bag
